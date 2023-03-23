@@ -16,15 +16,7 @@ namespace DiscordMusicBot.Commands
 {
     public sealed class SlashMusicCommands : ApplicationCommandModule
     {
-        public static DiscordEmbedBuilder EmbedBuilder()
-        {
-            var embed = new DiscordEmbedBuilder
-            {
-                Color = DiscordColor.Black,
-            };
-            return embed;
-        }
-        //Проверка находится ли чел в канале.
+        //Проверка находится ли польхователь в канале.
         public override async Task<bool> BeforeSlashExecutionAsync(InteractionContext ctx)
         {
             var voice = ctx.Member.VoiceState;
