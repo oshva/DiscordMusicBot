@@ -1,15 +1,14 @@
-﻿using DSharpPlus;
+﻿using DiscordMusicBot.Commands;
+using DSharpPlus;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.EventArgs;
+using DSharpPlus.Lavalink;
+using DSharpPlus.Net;
+using DSharpPlus.SlashCommands;
 using Newtonsoft.Json;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using DSharpPlus.Net;
-using DSharpPlus.Lavalink;
-using DiscordMusicBot.Commands;
-using DSharpPlus.Entities;
-using DSharpPlus.SlashCommands;
 
 namespace DiscordMusicBot.Classes
 {

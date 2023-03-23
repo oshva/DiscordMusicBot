@@ -1,7 +1,4 @@
 ﻿using DiscordMusicBot.Classes;
-using DSharpPlus.CommandsNext;
-using System;
-using System.Net.Http;
 
 namespace DiscordMusicBot
 {
